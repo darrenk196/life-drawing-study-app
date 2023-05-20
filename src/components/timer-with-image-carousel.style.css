@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .timer-with-image-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .timer-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #434343;
+  }
+  
+  .timer-display {
+    margin-bottom: 2rem;
+  }
+  
+  .timer {
+    font-size: 5rem;
+    color: #434343;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+  }
+  
+  .carousel-button {
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 0 1rem;
+    background-color: #7b8d93;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .carousel-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #bfc4c9;
+  }
+  
+  .carousel-button:hover {
+    background-color: #566368;
+  }
+  
+  .image-wrapper {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+  }
+  
+  .timer-button {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #7b8d93;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .timer-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #bfc4c9;
+  }
+  
+  .timer-button:hover {
+    background-color: #566368;
+  }
+  
+  .toggle-container {
+    margin-bottom: 2rem;
+  }
+  
+  .toggle-button {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #7b8d93;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .toggle-button:hover {
+    background-color: #566368;
+  }
+  
+  .fullscreen-mode {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fullscreen-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
+  
+  .exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+  }
+  

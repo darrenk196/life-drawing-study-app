@@ -1,0 +1,60 @@
+/* image-selection.style.css */
+
+.image-uploader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.input-reset {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.uploaded-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.image-preview {
+  margin: 0.5rem;
+}
+
+.preview-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+
+.start-button {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff0000; /* red color text */
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ff0000; /* red border */
+  border-radius: 5px; /* rounded corners */
+}
+
