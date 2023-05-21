@@ -21,9 +21,9 @@ You will need `node` and `npm` installed on your machine.
 3. To Start Server: `npm start`
 4. To Visit App: Open `localhost:3000` in your browser.
 
-## Deployment to GitHub Pages
+## See the Live Version
 
-The app can be deployed to GitHub pages by running `npm run deploy`. You'll need to set up the GitHub Pages environment in your repository settings.
+- https://velvety-tarsier-fa533d.netlify.app/
 
 ## Future Improvements
 
